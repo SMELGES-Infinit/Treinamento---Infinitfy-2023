@@ -182,6 +182,79 @@
 							"response": []
 						}
 					]
+				},
+				{
+					"name": "FTP",
+					"item": [
+						{
+							"name": "SP_FTP_Test",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"Request\": [\r\n        {\r\n            \"id\": 10321,\r\n            \"nome\": \"Test\",\r\n            \"data\": [\r\n                    {\r\n                    \"dia\": \"08\",\r\n                    \"mês\": \"10\",\r\n                    \"ano\": \"2022\"\r\n                },\r\n                {\r\n                    \"dia\": \"08\",\r\n                    \"mês\": \"05\",\r\n                    \"ano\": \"2025\"\r\n                },\r\n                {\r\n                    \"dia\": \"08\",\r\n                    \"mês\": \"03\",\r\n                    \"ano\": \"2026\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"id\": 22312,\r\n            \"nome\": \"Test 2\",\r\n            \"data\": [\r\n                    {\r\n                    \"dia\": \"01\",\r\n                    \"mês\": \"11\",\r\n                    \"ano\": \"2024\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{cpi_url}}/sp_ftp_write_test"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "RFC",
+					"item": [
+						{
+							"name": "SP_RFC_Test",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "<ZFM_ZAPERP_USERUNLOCK> \r\n<USERNAME>INFINIT</USERNAME>\r\n</ZFM_ZAPERP_USERUNLOCK>",
+									"options": {
+										"raw": {
+											"language": "xml"
+										}
+									}
+								},
+								"url": "{{cpi_url}}/sp_rfc_test"
+							},
+							"response": []
+						},
+						{
+							"name": "SP_RFC_Test Final",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "<BAPI_FLIGHT_GETLIST>\r\n\t<AIRLINE>JL</AIRLINE>\r\n\t<DESTINATION_FROM>\r\n\t\t<AIRPORTID>FRA</AIRPORTID>\r\n\t\t<CITY>FRANKFURT</CITY>\r\n\t</DESTINATION_FROM>\r\n    <DESTINATION_TO>\r\n\t\t<AIRPORTID>NRT</AIRPORTID>\r\n\t\t<CITY>TOKYO</CITY>\r\n\t</DESTINATION_TO>\r\n</BAPI_FLIGHT_GETLIST>",
+									"options": {
+										"raw": {
+											"language": "xml"
+										}
+									}
+								},
+								"url": "{{cpi_url}}/sp_rfc_test"
+							},
+							"response": []
+						}
+					]
 				}
 			],
 			"auth": {
