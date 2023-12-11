@@ -96,12 +96,13 @@ Criar uma interface para ler o arquivo .CSV "cadastro_clientes" no servidor FTP.
 #### Arquivo de Log
 - Tipo: .txt
 - Formato: Uma linha por registro com data/hora (yyyy-MM-dd'T'HH:mm:ss) e informação sobre o sucesso ou erro.
-- Nome: {INICIAIS}_log_{timestamp}.txt
+- Nome: {INICIAIS}__log__{timestamp}.txt
 
 Exemplo:
+```
 2023-12-11'T'16:00:00 INFO Cliente cadastrado sob Nº 200
 2023-12-11'T'16:01:00 ERROR Erro ao cadastrar cliente: CEP inválido
-
+```
 ---
 
 ## Tabelas
