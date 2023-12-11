@@ -33,6 +33,44 @@ Desenvolver um serviço OData (CDS View) para exibir dados de clientes (CUSTOMER
 ### Objetivo
 Implementar uma interface (IFlow) para enviar um JSON contendo dados de clientes ao servidor FTP, no formato .CSV, denominado "cadastro_clientes".
 
+#### Formato do JSON
+{
+  "Customer": [
+    {
+      "Nome": "",
+      "Sobrenome": "",
+      "CNPJ": "",
+      "CPF": "",
+      "CEP": "",
+      "Descrição_1": "",
+      "Descrição_2": "",
+      "HOUSE_NUM": "",
+      "BUILDING": "",
+      "FLOOR": "",
+      "COUNTRY": "",
+      "LANG": "",
+      "TEL_NUMBER": "",
+      "CELL_NUMBER": ""
+    },
+    {
+      "Nome": "",
+      "Sobrenome": "",
+      "CNPJ": "",
+      "CPF": "",
+      "CEP": "",
+      "Descrição_1": "",
+      "Descrição_2": "",
+      "HOUSE_NUM": "",
+      "BUILDING": "",
+      "FLOOR": "",
+      "COUNTRY": "",
+      "LANG": "",
+      "TEL_NUMBER": "",
+      "CELL_NUMBER": ""
+    }
+  ]
+}
+
 #### Diretório de Escrita
 - /{NOME_CANDIDATO}/NAO_PROCESSADOS
 
