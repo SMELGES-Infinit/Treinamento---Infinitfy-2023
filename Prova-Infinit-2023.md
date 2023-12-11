@@ -1,4 +1,5 @@
-# Especificação Funcional - Cadastro de Clientes ![logo](https://github.com/SMELGES-Infinit/Treinamento---Infinitfy-2023/assets/122098536/5946817a-099a-430f-899e-3e1fc20a8d95)
+![logo](https://github.com/SMELGES-Infinit/Treinamento---Infinitfy-2023/assets/122098536/c7255158-c727-4ae7-945f-e8fb6ff31571)
+# Especificação Funcional - Cadastro de Clientes
 
 ## Introdução
 
