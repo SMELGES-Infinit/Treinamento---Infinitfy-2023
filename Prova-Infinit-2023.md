@@ -96,7 +96,7 @@ Criar uma interface para ler o arquivo .CSV "cadastro_clientes" no servidor FTP.
 #### Arquivo de Log
 - Tipo: .txt
 - Formato: Uma linha por registro com data/hora (yyyy-MM-dd'T'HH:mm:ss) e informação sobre o sucesso ou erro.
-- Nome: {INICIAIS}__log__{timestamp}.txt
+- Nome: {INICIAIS_log_timestamp}.txt
 
 Exemplo:
 ```
